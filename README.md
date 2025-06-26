@@ -22,5 +22,10 @@ Technologies Used
 
  📄 Example
 
-**Input File (`input.txt`):**
+**Input File (`input.txt`):
 
+Future Enhancements
+Support for symbols or numbers
+XOR-based or AES-style encryption
+Password-protected encryption
+Log file creation for all operation
