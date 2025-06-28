@@ -35,20 +35,20 @@ int main() {
     char infile[100], outfile[100];
 
     while (1) {
-        printf("\n==== File Encryptor/Decryptor ====\n");
+        printf(" File Encryptor/Decryptor .\n");
         printf("1. Encrypt File\n");
         printf("2. Decrypt File\n");
         printf("0. Exit\n");
-        printf("Choose: ");
+        printf("Choose:\n ");
         scanf("%d", &choice);
 
         if (choice == 0) break;
 
-        printf("Enter input file name: ");
+        printf("Enter input file name:\n ");
         scanf("%s", infile);
-        printf("Enter output file name: ");
+        printf("Enter output file name: \n");
         scanf("%s", outfile);
-        printf("Enter key (number): ");
+        printf("Enter key (number): \n");
         scanf("%d", &key);
 
         if (choice == 1)
@@ -57,7 +57,6 @@ int main() {
             decrypt_file(infile, outfile, key);
         else
             printf(" Invalid choice.\n");
-    }
-
-    return 0;
+return 0;
+}
 }
